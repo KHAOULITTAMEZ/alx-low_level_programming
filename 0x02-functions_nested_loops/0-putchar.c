@@ -8,7 +8,10 @@
 	 */
 
 
-	int main(void) /*main print _putchar*/
+	int main(void) 
+	/**
+	 * main print _putchar
+	 */
 	{
 	putchar('_');
 	putchar('p');
