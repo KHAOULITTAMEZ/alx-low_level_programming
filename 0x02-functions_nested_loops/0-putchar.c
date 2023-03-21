@@ -1,5 +1,4 @@
-#include "main.h"
-
+#include<main.h>
 /**
  * MAIN -MAIN function
  *
@@ -9,7 +8,6 @@
  */
 int main(void)
 {
-
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
