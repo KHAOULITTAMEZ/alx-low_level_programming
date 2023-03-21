@@ -1,1 +1,1 @@
-main
+./betty-doc.pl main.c
