@@ -1,4 +1,4 @@
-#include "main.h"
+#include<stdio.h>
 	/**
 	 * main - print _putchar
 	 * is written by mbah
@@ -6,8 +6,8 @@
 	 */
 
 
-	int main(void)
-	{
+int main(void)
+{
 	putchar('_');
 	putchar('p');
 	putchar('u');
@@ -18,4 +18,4 @@
 	putchar('r');
 	putchar('\n');
 	return (0);
-	}
+}
