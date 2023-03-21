@@ -1,13 +1,18 @@
 #include<stdio.h>
 	/**
-	 * main - print _putchar
-	 * is written by mbah
+	 * main -main  print _putchar
+	 *
+	 * is written by mourad
+	 *
 	 * Return: 0
 	 */
 
 
 	int main(void)
 	{
+	/*
+	 * print _putchar
+	 */
 	putchar('_');
 	putchar('p');
 	putchar('u');
