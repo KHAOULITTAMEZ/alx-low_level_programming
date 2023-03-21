@@ -1,10 +1,9 @@
-#include<main.h>
-/**
- * MAIN -MAIN function
+#include<stdio.h>
+/*
  *
  * _putchar: print the alphabets putchar
  *
- * Return: Always 0
+ * Return: Always
  */
 int main(void)
 {
