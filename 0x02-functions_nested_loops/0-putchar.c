@@ -1,12 +1,12 @@
 #include<stdio.h>
 
 	/**
-	* main -main  print _putchar
-	*
-	* is written by mourad
-	*
-	* Return: 0
-	*/
+	 * main -main  print _putchar
+	 *
+	 * is written by mourad
+	 *
+	 * Return: Always 0 (Success)
+	 */
 
 	int main(void)
 	{
