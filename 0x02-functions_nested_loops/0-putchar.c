@@ -1,11 +1,8 @@
-#include<stdio.h>
+#include <stdio.h>
 
 	/*
-	 * main: main function is for print _putchar
-	 *
-	 * is written by mourad
-	 *
-	 * Return: Always 0 (Success)
+	 * main print _putchar, fillowed by new line
+	 * Return: 0
 	 */
 
 	int main(void)
