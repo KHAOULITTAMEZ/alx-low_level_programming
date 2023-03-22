@@ -1,1 +1,1 @@
-#include "main.h"
+main.h function to write letters in lowercase
