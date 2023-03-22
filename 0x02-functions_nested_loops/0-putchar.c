@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 	/**
-	 * main -main  print _putchar
+	 * main: main function is for print _putchar
 	 *
 	 * is written by mourad
 	 *
