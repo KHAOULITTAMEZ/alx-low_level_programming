@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-	/**
+	/*
 	 * main: main function is for print _putchar
 	 *
 	 * is written by mourad
