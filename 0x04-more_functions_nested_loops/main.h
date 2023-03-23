@@ -1,4 +1,3 @@
 int _isupper(int c);
 int _isdigit(int c);
-:x
-:q!
+int mul(int a, int b);
