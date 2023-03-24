@@ -1,2 +1,8 @@
-VimCrypt~03!ö©qt‡rw±ÿõHá‡W}¯§.R¤øÕÆEFÚfğ¸%ß3c«ìêIdKOOÓÁfdË6¿‰ú)wµ¤¼Å¥œCµ™}ùÍ¾^Ä¿ãVØ¹ãI˜””Wû»×·x†S:24Ïô–õãF!y´ğ!
-H
+#ifndef MAIN_H
+#define MAIN_H
+
+#include <stdio.h>
+
+void positive_or_negative(int i);
+
+#endif /* MAIN_H */
