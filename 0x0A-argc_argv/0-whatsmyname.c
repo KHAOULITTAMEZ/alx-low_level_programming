@@ -1,13 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - whatsmyname print my name is myname
- *
- * return: value
- */
+* main - main print my name is myname
+* @argc: int
+* @argv: list
+* Return: 0
+*/
 int main(int argc, char const *argv[])
-{ 
+{
 	(void)argc;
 	printf("%s\n", argv[0]);
 	return (0);
-}	
+}
