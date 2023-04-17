@@ -8,10 +8,9 @@
 */
 	int _strlen(const char *str)
 
-		int length =0;
+		int length = 0;
+
 		while (*str++)
-		
-	
 		return (length);
 /**
 *_strcpy - copies the string pointed to by src
@@ -23,12 +22,14 @@
 * Return: the pointer to dest
 */
 	char *_strcpy(char *dest, char *src)
+
 {
 	int i;
+
 	for (i = 0;src[i]; i++)
-			dest[i] = src[i];
-		dest[i] = '\0';
-		return (dest);	
+	dest[i] = src[i];
+	dest[i] = '\0';
+		return (dest);
 }
 /**
 * new_dog - creates a new dog
@@ -38,15 +39,16 @@
 *
 * Return: pointer to the new dog (Success), NULL otherwise
 */
-	dog_t *new_dog(char *name)
+	dog_t *new_dog(char *name, float age, char *Owner)
+{
 		dog_t *dog;
 /* if name and owner are empty and age is less then zero return null*/
 		if (!name || age < 0 || !owner)
-		       return (NULL);
-	dog = (dog_t *) malloc(sizeof(dog_t));
-	if (dog == NULL)	
 		return (NULL);
+	dog = (dog_t *) malloc(sizeof(dog_t));
+	if (dog == NULL)
+	return (NULL);
 	dog->name = malloc(sizeof(char) * (_strlen(name) + 1));
 	if ((*dog).name == NULL)
 		free(dog);
-		return (NULL);
+}		return (NULL);
