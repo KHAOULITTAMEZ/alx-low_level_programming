@@ -29,7 +29,7 @@ char *_strcpy(char *dest, char *src)
 {
 	int i;
 
-	for (i = 0;src[i]; i++)
+	for (i = 0; src[i]; i++)
 		dest[i] = src[i];
 	dest[i] = '\0';
 	return (dest);
@@ -39,7 +39,7 @@ char *_strcpy(char *dest, char *src)
 * new_dog - creates a new dog
 * @name: name of the dog
 * @age: age of the dog
-* @owner: owner of the dog
+* @Owner: Owner of the dog
 *
 * Return: pointer to the new dog (Success), NULL otherwise
 */
@@ -48,7 +48,7 @@ dog_t *new_dog(char *name, float age, char *Owner)
 {
 	dog_t *dog;
 
-	/* if name and owner are empty and age is less then zero return null*/
+	/* if name and Owner are empty and age is less then zero return null*/
 		if (!name || age < 0 || !Owner)
 		return (NULL);
 	dog = (dog_t *) malloc(sizeof(dog_t));
