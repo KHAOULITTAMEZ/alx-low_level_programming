@@ -2,6 +2,7 @@
 #include "0-object_like_macro.h"
 #include <stdio.h>
 
+
 /**
 * main - check the code
 *
@@ -9,9 +10,11 @@
 */
 int main(void)
 {
-	int SIZE;
+	int s;
+
 
 	s = 98 + SIZE;
 	printf("%d\n", s);
 	return (0);
 }
+
